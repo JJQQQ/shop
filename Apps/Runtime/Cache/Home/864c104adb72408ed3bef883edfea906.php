@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit(); if(is_array($links)): foreach($links as $key=>$link): ?><li><a href="<?php echo ($link['linkaddress']); ?>"><?php echo ($link['linkname']); ?></a><span>|</span></li><?php endforeach; endif; ?>
